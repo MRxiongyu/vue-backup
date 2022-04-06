@@ -14,6 +14,18 @@ const app = http.createServer((req, res) => {
             {
                 name: 'xiongyu6',
                 id: 3
+            },
+            {
+                name: 'xiongyu62',
+                id: 4
+            },
+            {
+                name: 'xiongyu16',
+                id: 5
+            },
+            {
+                name: 'xiongyu66',
+                id: 6
             }
         ]
         res.setHeader('Access-Control-Allow-Origin', '*')
