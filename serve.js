@@ -10,6 +10,10 @@ const app = http.createServer((req, res) => {
             {
                 name: 'xiongyu2',
                 id: 2
+            },
+            {
+                name: 'xiongyu3',
+                id: 3
             }
         ]
         res.setHeader('Access-Control-Allow-Origin', '*')
